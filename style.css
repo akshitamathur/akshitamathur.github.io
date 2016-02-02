@@ -600,231 +600,162 @@ input[placeholder], [placeholder], *[placeholder] {
 
 /*Skills Bar*/
 
-/*@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
-
-section.main {
-    margin-top: 300px;
-    position: relative;
-}
-
-span {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 700;
-    color: rgb(80,80,80);
-    text-shadow: 1px 0px 0px rgb(220,220,220);
-    margin-left: 150px;
-}
-
-input[type=radio] { visibility: hidden }
-
-label {
-    width: auto;
-    height: 30px;
-    display: inline-block;
-    background: rgba(183, 172, 172, 0.7);
-    text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px;
-    color: rgb(255,255,255);
-    padding-top: 2px;
-    position: relative;
-    top: 2px;
-    cursor: pointer;
-}
-
-label:hover { background: rgba(153, 142, 142, 0.7) }
-
-input#skill-html5:checked~label[for=skill-html5] { background: rgba(123, 112, 112, 0.7) }
-
-input#skill-css3:checked~label[for=skill-css3] { background: rgba(123, 112, 112, 0.7) }
-
-input#skill-jquery:checked~label[for=skill-jquery] { background: rgba(123, 112, 112, 0.7) }
-
-input#skill-C:checked~label[for=skill-C] { background: rgba(123, 112, 112, 0.7) }
-
-input#skill-wordpress:checked~label[for=skill-wordpress] { background: rgba(123, 112, 112, 0.7) }
-
-input#skill-java:checked~label[for=skill-java] { background: rgba(123, 112, 112, 0.7) }
-
-section section {
-    width: 60%;
-    height: 350px;
-    margin-top: -298px;
-}
-
-input[type=radio]~section>div {
-    width: 100px;
-    height: 300px;
-    background-color: rgba(233, 222, 222, 0.5);
-    position: absolute;
-    margin-left: 600px;
-    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,.2);
-    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,.2);
-    box-shadow: 0px 0px 3px rgba(0,0,0,.2);
-}
-
-input[type=radio]~section>div>div#bar {
-    height: 0%;
-    width: 100px;
-    background-color: rgba(47, 83, 122, 0.7);
-    position: absolute;
-    bottom: 0;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-}
-
-input#skill-html5:checked~section>div>div#bar {
-    height: 75%;
-    background-color: #F14A29;
-}
-
-input#skill-css3:checked~section>div>div#bar {
-    height: 95%;
-    background-color: #2AA7DF;
-}
-
-input#skill-jquery:checked~section>div>div#bar {
-    height: 30%;
-    background-color: rgb(234,192,73);
-}
-
-input#skill-C:checked~section>div>div#bar {
-    height: 75%;
-    background-color: #F14A29;
-}
-
-input#skill-wordpress:checked~section>div>div#bar {
-    height: 95%;
-    background-color: #2AA7DF;
-}
-
-input#skill-java:checked~section>div>div#bar {
-    height: 30%;
-    background-color: rgb(234,192,73);
-}
-
-input[type=radio]~section>div>div#counter {
-    width: 25px;
-    height: 18px;
-    overflow: hidden;
-    margin: auto;
-    position: relative;
-    top: 260px;
-}
-
-input[type=radio]~section>div>div#counter>div {
-    width: 25px;
-    margin: auto;
-    position: relative;
-    top: 0px;
-    z-index: 3;
-    font-family: 'Open Sans Condensed';
-    font-weight: bold;
-    color: rgb(255,255,255);
-    -webkit-transition: top 2s;
-    -moz-transition: top 2s;
-    -o-transition: top 2s;
-    transition: top 2s;
-}
-
-input#skill-html5:checked~section>div>div#counter>div {
-    position: relative;
-    top: -1628px;
-}
-
-input#skill-css3:checked~section>div>div#counter>div {
-    position: relative;
-    top: -2069px;
-}
-
-input#skill-jquery:checked~section>div>div#counter>div
-{
-    position: relative;
-    top: -640px;
-}
-
-input#skill-C:checked~section>div>div#counter>div {
-    position: relative;
-    top: -1628px;
-}
-
-input#skill-wordpress:checked~section>div>div#counter>div {
-    position: relative;
-    top: -2069px;
-}
-
-input#skill-java:checked~section>div>div#counter>div
-{
-    position: relative;
-    top: -640px;
-}
-
-*/
-
-/*New Skill Bar*/
-.container {
-	width: 960px;
-	margin: 0 auto; 
-	overflow: hidden;
-}
-
-.content{
-	width:278px;
-	margin:0;
-	position:relative;
-	float:left;
-	font-size:12px;
-	line-height:2em;
-	padding:30px 0 30px;
-}
-.col { width:280px; }
-
 #skill { 
-	list-style:none; 
-	padding-top:30px;
-	/*width: 100em;*/
+	list-style: none;
+	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	width: 100%;
+	position: relative;
+	line-height: 2em;
+	padding: 0 0;
 }
 
 #skill li { 
-	margin-bottom:70px; 
-	background:#000; 
-	height:5px; 
-	border-radius:3px; 
-	border-left:1px solid #111; 
-	border-top:1px solid #111; 
-	border-right:1px solid #333; 
-	border-bottom:1px solid #333;  
+	margin-bottom:50px; 
+	background:#e9e5e2;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
+	background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  
+	height:20px; 
+	border-radius:10px; 
+	-moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	-webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	  
 }
 
-#skill li em { 
+#skill li h3 { 
 	position:relative; 
-	top:-30px;
+	top:-25px;
 }
 
-.expand { 
-	height:1px; 
-	margin:2px 0; 
-	background:#2187e7; 
+.bar { 
+	height:18px; 
+	margin:1px 2px;  
 	position:absolute;
-	box-shadow:0px 0px 10px 1px rgba(0,198,255,0.4);
+	border-radius:10px;
+	-moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+	-webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;	 
+	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
 }
 
-.html5       { width:70%;  -moz-animation:html5 2s ease-out;       -webkit-animation:html5 2s ease-out;       }
-.css3        { width:90%;  -moz-animation:css3 2s ease-out;        -webkit-animation:css3 2s ease-out;        }
-.jquery      { width:50%;  -moz-animation:jquery 2s ease-out;      -webkit-animation:jquery 2s ease-out;      }
-.photoshop   { width:10%;  -moz-animation:photoshop 2s ease-out;   -webkit-animation:photoshop 2s ease-out;   }
-.dreamweaver { width:100%; -moz-animation:dreamweaver 2s ease-out; -webkit-animation:dreamweaver 2s ease-out; }
+.photo {
+	width:90%; 
+	-moz-animation:photo 2s ease-out;
+	-webkit-animation:photo 2s ease-out;
+	background-color: #f674a4;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+	background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+	background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+	background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+	background-image: -o-linear-gradient(top, #f674a4, #e06995);
+	background-image: linear-gradient(top, #f674a4, #e06995);
+}
 
-@-moz-keyframes html5       { 0%  { width:0px;} 100%{ width:70%;}  }
-@-moz-keyframes css3        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:50%;}  }
-@-moz-keyframes photoshop   { 0%  { width:0px;} 100%{ width:10%;}  }
-@-moz-keyframes dreamweaver { 0%  { width:0px;} 100%{ width:100%;} }
+.html-css {
+	width:80%;
+	-moz-animation:html-css 2s ease-out;
+	-webkit-animation:html-css 2s ease-out;
+	background-color: #f0bb4b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+	background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+}
 
-@-webkit-keyframes html5       { 0%  { width:0px;} 100%{ width:70%;}  }
-@-webkit-keyframes css3        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:50%;}  }
-@-webkit-keyframes photoshop   { 0%  { width:0px;} 100%{ width:10%;}  }
-@-webkit-keyframes dreamweaver { 0%  { width:0px;} 100%{ width:100%;} }
+.jquery {
+	width:80%;
+	-moz-animation:jquery 2s ease-out;
+	-webkit-animation:jquery 2s ease-out;
+	background-color: #a1ce5b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
+	background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -o-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: linear-gradient(top, #a1ce5b, #91ba52);
+}
+
+.wordpress {
+	width:70%;
+	-moz-animation:wordpress 2s ease-out;
+	-webkit-animation:wordpress 2s ease-out;
+	background-color: #66b3cc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)	
+}
+.server {
+	width:70%; 
+	-moz-animation:server 2s ease-out;
+	-webkit-animation:server 2s ease-out;
+	background-color: #f674a4;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+	background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+	background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+	background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+	background-image: -o-linear-gradient(top, #f674a4, #e06995);
+	background-image: linear-gradient(top, #f674a4, #e06995);
+}
+.java {
+	width:80%;
+	-moz-animation:java 2s ease-out;
+	-webkit-animation:java 2s ease-out;
+	background-color: #f0bb4b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+	background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+}	background-image: linear-gradient(top, #66b3cc, #5da3ba)	
+
+.sharp {
+	width:75%;
+	-moz-animation:sharp 2s ease-out;
+	-webkit-animation:sharp 2s ease-out;
+	background-color: #a1ce5b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
+	background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -o-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: linear-gradient(top, #a1ce5b, #91ba52);
+}
+.ruby {
+	width:45%;
+	-moz-animation:ruby 2s ease-out;
+	-webkit-animation:ruby 2s ease-out;
+	background-color: #66b3cc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)	
+}
+
+@-moz-keyframes photoshop {0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes server {0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes java        { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes csharp     { 0%  { width:0px;} 100%{ width:75%;}  }
+@-moz-keyframes ruby   { 0%  { width:0px;} 100%{ width:45%;}  }
+
+
+@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes wordpress      { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes sever       { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes java        { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes csharp     { 0%  { width:0px;} 100%{ width:75%;}  }
+@-webkit-keyframes ruby     { 0%  { width:0px;} 100%{ width:45%;}  }
