@@ -598,6 +598,11 @@ input[placeholder], [placeholder], *[placeholder] {
   align-items: center;
 }
 
+#githublogo{
+	height: 50px;
+	padding-top:20%;
+}
+
 /*Skills Bar*/
 
 #skill { 
