@@ -118,6 +118,9 @@
 	-o-animation-fill-mode: forwards;
 	-ms-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
+	height: 774px;
+    width: 400px;
+    margin-left: 25px;
 }
 
 .text-box
